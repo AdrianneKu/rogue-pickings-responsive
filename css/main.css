@@ -215,16 +215,20 @@ footer span {
 		justify-content: space-between;
 		align-items: center;
 		flex-flow: row nowrap;
+		flex-basis: auto;
 		margin: 0 auto;
 	}
 
 	header h1 {
-		text-align: left;
 		margin: 0;
+		padding: 38px 0;
+		text-align: left;
+		border-bottom: none;
 	}
 
 	header nav {
 		padding: 46px 0;
+		width: 40%;
 	}
 
 	header nav ul {
@@ -233,12 +237,6 @@ footer span {
 
 	header nav ul li {
 		padding: 0 10px;
-	}
-
-	header h1 {
-		margin: 0;
-		padding: 38px 0;
-		border-bottom: none;
 	}
 
 	.section-one,
